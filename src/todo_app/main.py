@@ -1,3 +1,8 @@
+# 📘 Use Case: Simple Todo App (Command-Line)
+# You want to build a to-do list that:
+# Stores tasks in a database (so they persist)
+# Lets users add, view, and mark tasks as done
+
 import sqlite3
 
 # Connect to / create the database
