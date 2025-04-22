@@ -1,5 +1,5 @@
 [project]
-name = "sql-dbs"
+name = "sqlite_db"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -7,10 +7,12 @@ authors = [
     { name = "haongnd2280", email = "hao.ngnd2285@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "pandas>=2.2.3",
+]
 
 [project.scripts]
-sql-dbs = "sql_dbs:main"
+sql-dbs = "sqlite_db:main"
 
 [build-system]
 requires = ["hatchling"]
